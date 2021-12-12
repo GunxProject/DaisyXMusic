@@ -237,7 +237,7 @@ async def settings(client, message):
 
 
 @Client.on_message(
-    filters.command("musicplayer") & ~filters.edited & ~filters.bot & ~filters.private
+    filters.command("musicplayers") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @authorized_users_only
 async def hfmm(_, message):
@@ -448,7 +448,7 @@ async def m_cb(b, cb):
             await cb.answer("Chat is not connected!", show_alert=True)
             
      
-@Client.on_message(command("play") & other_filters)
+@Client.on_message(command("Batee") & other_filters)
 async def play(_, message: Message):
     global que
     global useer
@@ -776,7 +776,7 @@ async def play(_, message: Message):
         return await lel.delete()
 
 
-@Client.on_message(filters.command("ytplay") & filters.group & ~filters.edited)
+@Client.on_message(filters.command("ytp") & filters.group & ~filters.edited)
 async def ytplay(_, message: Message):
     global que
     if message.chat.id in DISABLED_GROUPS:
@@ -932,7 +932,7 @@ async def ytplay(_, message: Message):
         return await lel.delete()
 
 
-@Client.on_message(filters.command("splay") & filters.group & ~filters.edited)
+@Client.on_message(filters.command("sbatee") & filters.group & ~filters.edited)
 async def jiosaavn(client: Client, message_: Message):
     global que
     if message_.chat.id in DISABLED_GROUPS:
