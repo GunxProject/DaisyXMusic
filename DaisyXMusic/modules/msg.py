@@ -46,11 +46,11 @@ class Messages:
 
 **=>> Song Playing 🎧**
 
-- /play: Play the requestd song
-- /play [yt url] : Play the given yt url
-- /play [reply yo audio]: Play replied audio
+- /Batee: Play the requestd song
+- /Batee [yt url] : Play the given yt url
+- /Batee [reply yo audio]: Play replied audio
 - /splay: Play song via jio saavn
-- /ytplay: Directly play song via Youtube Music
+- /ytp: Directly play song via Youtube Music
 
 **=>> Playback ⏯**
 
@@ -58,7 +58,7 @@ class Messages:
 - /skip: Skips the current track
 - /pause: Pause track
 - /resume: Resumes the paused track
-- /end: Stops media playback
+- /ends: Stops media playback
 - /mute: mute song play
 - /unmute: unmute song play
 - /current: Shows the current Playing track
@@ -98,22 +98,22 @@ channel is also can be used instead of c ( /cplay = /channelplay )
         f"""
 **=>> More tools 🧑‍🔧**
 
-- /musicplayer [on/off]: Enable/Disable Music player
+- /musicplayers [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
 """,
         f"""
 **=>> Song Download 🎸**
 
-- /video [song mame]: Download video song from youtube
-- /song [song name]: Download audio song from youtube
+- /videos [song mame]: Download video song from youtube
+- /songs [song name]: Download audio song from youtube
 - /saavn [song name]: Download song from saavn
 - /deezer [song name]: Download song from deezer
 
 **=>> Search Tools 📄**
 
 - /search [song name]: Search youtube for songs
-- /lyrics [song name]: Get song lyrics
+- /lyric [song name]: Get song lyrics
 """,
         f"""
 **=>> Commands for Sudo Users ⚔️**
