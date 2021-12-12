@@ -72,7 +72,7 @@ async def resume(_, message: Message):
         
 
 
-@Client.on_message(command("end") & other_filters)
+@Client.on_message(command("ends") & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
