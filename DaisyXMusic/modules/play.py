@@ -932,7 +932,7 @@ async def ytplay(_, message: Message):
         return await lel.delete()
 
 
-@Client.on_message(filters.command("sbatee") & filters.group & ~filters.edited)
+@Client.on_message(filters.command("splay") & filters.group & ~filters.edited)
 async def jiosaavn(client: Client, message_: Message):
     global que
     if message_.chat.id in DISABLED_GROUPS:
